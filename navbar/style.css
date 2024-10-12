@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 21, 79);
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.logo-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+body {
+    background-color: #edf2f7;
+}
+
+.main {
+    display: flex;
+    margin: 2rem 1rem;
+}
+
+aside {
+    width: 25%;
+    margin-right: 25px;
+}
+
+main {
+    width: 75%;
+}
+
+aside, main {
+    background-color: #ffffff;
+    height: 600px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.card {
+    width: calc(100% - 6rem);
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.card-item {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.card-content {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    padding: 15px;
+    background: #fafafa;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .hamburger-menu {
+        display: block;
+    }   
+    .navbar {
+        display: none;
+    }
+    .hamburger-menu i {
+        font-size: 2rem;
+        color: white;
+        margin: 14px 0;
+    }
+    .header {
+        padding: 0 1rem;
+    }
+    .main {
+        flex-direction: column-reverse;
+        margin: 1rem;
+    }
+    aside {
+        width: calc(100% - 2rem);
+        margin-right: 0 ;
+        height: 100px;
+    }
+    
+    main {
+        width: calc(100% - 2rem);
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+}
+
+@media (min-width:480px) and (max-width:768px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:479px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,222 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* body {
+    text-align: center;
+}
+.block {
+    background-color: bisque;
+    width: 300px;
+    margin: 10px auto;
+}
+.inline {
+    background-color: chocolate;
+} */
+/* ul li {
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+    background: seagreen;
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 5px;
+} */
+/* .list li {
+    list-style-type: square;
+}*/
+/* .list #home-page {
+    margin-top: 0;
+}  */
+/* a {
+    text-decoration: none;
+    background: seagreen;
+    display: inline-block;
+    margin: 10px ;
+    padding: 10px;
+} */
+/* div {
+    background: greenyellow;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+/* .first, .second, .third {
+    background-color: chartreuse;
+} */
+/* .first {
+    opacity: 0.5;
+}
+.second {
+    visibility: hidden;
+}
+.third {
+    display: none; /* completely deleted 
+} */
+/* div {
+    height: 400px;
+}
+.first {
+    height: 800px;
+    /* background: url("./images/negative-space-sheep-farm-portrait.jpg");
+    background-repeat: no-repeat ;  round - space
+    background-size: cover;
+    background-position: left;  or 100px 100px 
+    background-attachment: fixed; 
+    background: url("./images/negative-space-sheep-farm-portrait.jpg") top/cover no-repeat fixed;
+}
+.second {
+    background: url("./images/negative-space-sheep-farm-portrait.jpg");
+    background-size: contain;
+    
+} */
+ /* gradient */
+/* div {
+    /* background: linear-gradient(to right, blue, red, yellow);
+    background: radial-gradient(circle at center, blue, red, yellow); https://cssgradient.io/ 
+    height: 400px;
+} */
+ /*-----------------------------*/
+/* position*/
+/* div {
+    background: blue;
+    padding: 10px;
+}
+#first {
+    background: tan;
+    /* position: relative;
+    top: 50px;
+    left: 20px; 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#second {
+    background: sienna;
+    position: relative;
+}
+span {
+    background: silver;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+h1 {
+    background-color: rosybrown;
+    position: fixed;
+    width: 150px;
+    bottom: 0;
+    right: 0;
+} */
+/* .container {
+    width: 300px;
+    height: 400px;
+    border: 2px red solid;
+    position: relative;
+}
+#first {
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#second {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#third {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    z-index: 3;
+} */
+
+/* pseudo elements ----------------------------*/
+/* p {
+    color: black;
+    font-weight: bold;
+}
+p::before {
+    content: "";
+    background: url("./images/blue-circle-with-white-user_78370-4707.png");
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+p::after {
+    content: "";
+    color: aqua;
+    font-size: 2rem;
+    background: darkgreen;
+    display: block;
+    height: 50px;
+} */
+/* pseudo class */
+/* a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+a:hover {
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+p:hover {
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 3px;
+    cursor: grabbing;
+    margin-right: 20px;
+}
+ul li:first-child {
+    color: blueviolet;
+    margin-left: 20px;
+} */
+
+/* .container > h1 {
+    color: cadetblue;
+}
+a[href="https://google.com"] {
+    color: red;
+}
+p {
+    color: chartreuse;
+}
+p::first-line {
+    color: blue;
+}
+p::first-letter {
+    font-size: 3rem;
+} */
+/* text shadow and box shadow ------------------------*/
+/* h1 {
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px gray;
+}
+div {
+    background: coral;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 5px;
+} */

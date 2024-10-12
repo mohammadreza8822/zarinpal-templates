@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.child {
+    background-color: darkcyan;
+    font-size: 2rem;
+    /* margin: 10px; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 150px); /* we can use auto excepted 150px*/
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* or we can use auto-fit*/
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: minmax(50px, auto);
+    /* grid-template-rows: repeat(4, 100px); */
+    grid-gap: 10px;
+}
+
+.first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.second-child {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

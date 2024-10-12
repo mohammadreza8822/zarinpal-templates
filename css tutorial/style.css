@@ -1,0 +1,139 @@
+/* element selector */
+h1 {
+    color: blue;
+}
+
+/* grouping selector */
+h2, h3 {
+    color: aqua;
+}
+
+/* id selector & class selector */
+#js-language {
+    color: yellow;
+} /* id */
+
+.Python-language {
+    color: greenyellow;
+} /* class */
+
+
+div {
+    background: #0C6291;
+    color: aquamarine;
+}
+
+/* inheritance */
+body {
+    color: red;
+    text-align: center;
+}
+
+/* universal selector */
+* {
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------------ */
+/* colors */
+#color {
+    color: blue;
+    background-color: rgb(39, 122, 218);
+    background: darkgrey; /* we can give image and color to background*/
+    background: rgba(10, 10, 10, .4); /* red green blue opacity */
+    color: #ffffff;
+}
+
+/* ------------------------------ */
+/* width & height */
+#size {
+    /* width: 200px; */
+    /* height: 100px; */
+    width: 10%;
+    height: 20%;
+    background: rgb(24, 107, 155);
+    font-size: 30px;
+    font-size: 1em; /* 1em = 16px default */
+    font-size: 1rem; /* 1rem = 16px default we cant change default size */
+    /* vw = view width
+    vh = view height */
+    width: 5vw;
+    height: 2vh;
+    /* height: calc(100vh - 50px); */
+}
+/* ------------------------------ */
+/* fonts */
+@font-face {
+	font-family: 'Yekan';
+	src:	url('font/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('font/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('font/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('font/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('font/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('font/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+#font {
+    font-family: Yekan;
+    font-style: italic;
+    font-weight: 900;
+}
+body {
+    font-family: fantasy;
+    text-align: justify;
+    text-indent: 10px; /* space of first index for paragraph*/
+}
+.second-font {
+    line-height: 20px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+}
+.link-font {
+    font-size: 20px;
+    text-decoration: none; /* remove line from under the link */
+}
+.shorthand-font {
+    /* font-style: italic;
+    font-weight: 100;
+    font-size: 2rem;
+    font-height: 2rem;
+    font-family: "Yekan"; */
+    font: italic 700 1.2rem/2rem "Yekan";
+}
+/* ------------------------------ */
+/* padding & margin & border */
+.padding {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding: 10px 20px 30px 40px; /* top right bottom left */
+
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: blue; */
+    border: 5px solid blue;
+    border-radius: 100px;
+
+    /* margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; */
+    margin: 10px 20px 30px 40px;
+}
+/* change block to inline */
+.block {
+    background: salmon;
+    /* display: inline; block to inline */
+    margin: 10px;
+}
+.inline {
+    background: aqua;
+    /* display: block; inline to block */
+    margin: 10px;
+}

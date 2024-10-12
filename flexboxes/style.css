@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: silver;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+    justify-content: center; /* flex-start flex-end space-between (horizontal)*/
+    align-items: center; /* baseline (vertical) */
+    align-content: center;
+}
+
+.child {
+    font-size: 2rem;
+    background-color: azure;
+    margin: 10px;
+}

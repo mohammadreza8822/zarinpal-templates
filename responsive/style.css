@@ -1,0 +1,35 @@
+div {
+    width: 100%;
+    color: blue;
+    background: bisque;
+    font-size: 20px;
+}
+
+/* media query */
+@media (max-width: 480px) {
+    div {
+        width: 300px;
+        color: aqua;
+        background: pink;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    div {
+        width: 450px;
+        background: gold;
+    }
+    p {
+        color: green;
+     }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    div {
+        width: 760px;
+        background-color: cadetblue;
+    }
+    p {
+        color: brown;
+    }
+}

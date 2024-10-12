@@ -1,0 +1,84 @@
+/* div {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    background-color: salmon;
+    display: inline-block; 
+    transition: all 2s;
+}
+div:hover {
+    width: 500px;
+} */
+.first {
+    background-color: salmon;
+    /* transform: translateX(50%); */
+    /* transform: scaleX(0.5); */
+    /* transform: rotateZ(30deg);
+    border-bottom: 2px solid black; */
+    /* transform: skew(30deg, 15deg); */
+}
+.first:hover {
+    background-color: red;
+}
+.second {
+    background-color: seagreen;
+    /* transform: translateY(50%); */
+    /* transform: scale(0.3, 0.5); */
+    /* transform: rotateX(30deg); */
+}
+.third {
+    background-color: slateblue;
+    /* transform: translate(20px, 20px); */
+    /* transform: scaleY(0.5); */
+    /* transform: rotateY(30deg); */
+    /* transition-property: background, border-radius;
+    transition-duration: 3s, 1s;
+    transition-delay: 1s; */
+    /* transition: all 1s 1s; */
+    transition: background 3s 2s, border-radius 1s 1s;
+}
+.third:hover {
+    background-color: blue;
+    border-radius: 30px;
+}
+.ease {
+    transition-timing-function: ease;
+}
+.linear {
+    transition-timing-function: linear;
+}
+.ease-in {
+    transition-timing-function: ease-in;
+}
+.ease-out {
+    transition-timing-function: ease-out;
+}
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    /* animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+    animation: animation 10s infinite;
+}
+
+@keyframes animation {
+    50% {
+        width: 500px;
+        border-radius: 10px;
+        background-color: chartreuse;
+    }
+    75% {
+        width: 50px;
+        border-radius: 50%;
+        background-color: lightcoral;
+    }
+    100% {
+        width: 200px;
+    }
+}
